@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="top">
+            <div class="one"><b>TOP</b></div>
+            <div class="another">
+                <div class="side1">one</div>
+                <div class="side2">two</div>
+                <div class="side3">three</div>
+            </div>
+        </div>
+        <form>
+            <label for="Name">Name:</label>
+            <input type="text"name="" id="Name" required>
+            <br>
+            <label for="Email">Email:</label>
+            <input type="Email"name="" id="Email" required>
+            <br>
+            <label for="Number">Register.no:</label>
+            <input type="Number"name="" id="Number" required>
+            <br>
+            <label for="Department">Department:</label>
+            <input type="text" name="" id="Department" required="">
+        </form>
+        <button onclick=showName()>submit</button>
+        <h1 id="result">Hiiii</h1>
+        <script>
+        function showName()
+        {
+            const Name=document.getElementById ('Name').value
+            const Email=document.getElementById ('Email').value
+            const Number=document.getElementById ('Number').value
+            const Department=document.getElementById ('Department').value
+            document.getElementById('result').innerText=`Name: ${Name}<br> Email: ${Email}<br> Number: ${Number}<br> Department: ${Department}<br>`;
+
+
+        }
+      </script>
+    </div>
+</body>
+</html>

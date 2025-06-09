@@ -1,0 +1,24 @@
+.top
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vh;
+    padding: 10px;
+    background-color:rgb(148, 250, 250);
+
+}
+
+.one{
+    position: relative;
+    left: -280px;
+}
+
+.another
+{
+    display: flex;
+    position: relative;
+    left: 200px;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
